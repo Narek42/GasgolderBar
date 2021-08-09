@@ -1,0 +1,58 @@
+@media (min-width: 670px) {
+  .w1 {
+    width: 50%;
+  }
+  /* .post1 {
+    background: white;
+  } */
+  #parents {
+    height: 1800px;
+  }
+}
+@media (max-width: 1000px) {
+  .w1 {
+    width: 75%;
+  }
+  .post1 {
+    /* justify-content: none; */
+    display: block;
+    padding-top: 8%;
+    width: 80%;
+    margin: auto;
+    /* background: white; */
+    border-bottom: solid white 1px;
+  }
+  .post1 > div {
+    width: 100%;
+    margin: auto;
+  }
+  .post1 > .beerimg1 {
+    text-align: center;
+    font-size: 22px;
+  }
+  #parents3 {
+    height: 1587px;
+  }
+  .selectdiv {
+    width: 100%;
+    display: block;
+    justify-content: none;
+    height: 360px;
+  }
+  .div_inp {
+    display: block;
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .button {
+    margin-top: 25px;
+  }
+  #parents5 {
+    height: 645px;
+  }
+  .par5text {
+    display: block;
+    width: 68%;
+  }
+}

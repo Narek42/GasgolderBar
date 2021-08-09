@@ -1,0 +1,32 @@
+$(document).ready(function(){
+	$(".menu1").click(function(){
+		$("html,body").animate({
+			scrollTop:$("#parents2").offset().top
+		},1000)
+	})
+	$(".menu2").click(function(){
+		$("html,body").animate({
+			scrollTop:$("#parents3").offset().top-78
+		},1000)
+	})
+	$(".menu3").click(function(){
+		$("html,body").animate({
+			scrollTop:$(".beer").offset().top-100
+		},1000)
+	})
+	$(".menu4").click(function(){
+		$("html,body").animate({
+			scrollTop:$("#parents4").offset().top-78
+		},1000)
+	})
+	$(".menu5").click(function(){
+		$("html,body").animate({
+			scrollTop:$(".par5text1").offset().top-150
+		},1000)
+	})
+	$('.button').click(function(){
+		var s=$('.op1')
+		if(s==Number)
+		$('.image').show(500)
+	})
+})
